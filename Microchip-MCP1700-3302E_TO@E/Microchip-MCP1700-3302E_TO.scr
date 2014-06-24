@@ -1,0 +1,72 @@
+# Created by Ultra Librarian Gold 5.3.88 Copyright © 1999-2010
+#  Premier Farnell
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'TO127P254X495-3.pac';
+Change Drill 39;
+Pad '1' Round 0 R0 (-100 -100);
+Change Drill 39;
+Pad '2' Square 0 R0 (-50 0);
+Change Drill 39;
+Pad '3' Square 0 R0 (0 -100);
+Layer 39;
+Wire 6 (-162 -140) (-162 62);
+Wire 6 (-162 62) (62 62);
+Wire 6 (62 62) (62 -140);
+Wire 6 (62 -140) (-162 -140);
+Layer 39;
+Wire 6 (-162 -140) (-162 62) (62 62) (62 -140);
+Layer 21;
+Wire 6 (-57 -112) (-41 -112);
+Wire 6 (-143 -94) -205 (52 -50);
+Wire 6 (52 -50) -25 (42 -95);
+Layer 51;
+Wire 6 (-131 -112) (31 -112);
+Wire 6 (-131 -112) -255 (31 -112);
+Layer 25;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-237 53);
+Layer 27;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-270 -230);
+
+Edit 'MCP1700-3302E/TO.sym';
+Layer 94;
+Pin 'VIN' In None Middle R0 Both 0 (-700 -100);
+Pin 'GND' Pas None Middle R0 Both 0 (-700 -200);
+Pin 'VOUT' Out None Middle R180 Both 0 (700 -100);
+Wire 16 (-500 100) (-500 -400);
+Wire 16 (-500 -400) (500 -400);
+Wire 16 (500 -400) (500 100);
+Wire 16 (500 100) (-500 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-185 149);
+Layer 96;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-201 -493);
+
+Edit 'MCP1700-3302E/TO.dev';
+Prefix 'U';
+
+Value Off;
+Add MCP1700-3302E/TO 'A' Next  0 (0 0);
+Package 'TO127P254X495-3';
+Technology '';
+Attribute Package 'TO-92';
+Attribute Supplier 'Microchip';
+Attribute OC_NEWARK '88H9804';
+Attribute OC_FARNELL '1296588';
+Attribute MPN 'MCP1700-3302E/TO';
+Description 'IC, Low Quiescent Current LDO,3.3V,TO-92';
+Connect 'A.GND' '1';
+Connect 'A.VIN' '2';
+Connect 'A.VOUT' '3';
