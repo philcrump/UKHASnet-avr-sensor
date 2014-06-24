@@ -4678,6 +4678,9 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C1" library="1000ufCap" deviceset="EEU" device="-P1.5" technology="FC1J6R8" value="6.8UF"/>
 <part name="R4" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="Y1" library="SparkFun" deviceset="RESONATOR" device="PTH"/>
+<part name="JP12" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
+<part name="JP13" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
+<part name="JP14" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -4707,6 +4710,9 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <instance part="C1" gate="G$1" x="45.72" y="22.86" rot="R180"/>
 <instance part="R4" gate="G$1" x="10.16" y="20.32" rot="R90"/>
 <instance part="Y1" gate="G$1" x="33.02" y="20.32"/>
+<instance part="JP12" gate="G$1" x="129.54" y="22.86" rot="R180"/>
+<instance part="JP13" gate="G$1" x="132.08" y="40.64" rot="R180"/>
+<instance part="JP14" gate="G$1" x="132.08" y="55.88" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4942,12 +4948,16 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="30.48" y1="38.1" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <junction x="30.48" y="30.48"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="22.86" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="22.86" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <junction x="38.1" y="30.48"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="25.4" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <junction x="38.1" y="22.86"/>
+<pinref part="JP12" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="22.86" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<junction x="38.1" y="25.4"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -5027,6 +5037,24 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="104.14" y1="-53.34" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PD2"/>
 <wire x1="104.14" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="JP14" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="55.88" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="50.8" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="PD0"/>
+<wire x1="88.9" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PD1"/>
+<wire x1="88.9" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="68.58" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="JP13" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="38.1" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
