@@ -124,10 +124,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="49.51" y2="0" width="0" layer="20"/>
-<wire x1="49.51" y1="0" x2="49.51" y2="49.2" width="0" layer="20"/>
-<wire x1="49.51" y1="49.2" x2="0" y2="49.2" width="0" layer="20"/>
-<wire x1="0" y1="49.2" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="47.2" x2="0" y2="2" width="0" layer="20"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="2" y1="0" x2="47.51" y2="0" width="0" layer="20"/>
+<wire x1="47.51" y1="0" x2="49.51" y2="2" width="0" layer="20" curve="90"/>
+<wire x1="49.51" y1="2" x2="49.51" y2="47.2" width="0" layer="20"/>
+<wire x1="49.51" y1="47.2" x2="47.51" y2="49.2" width="0" layer="20" curve="90"/>
+<wire x1="47.51" y1="49.2" x2="2" y2="49.2" width="0" layer="20"/>
+<wire x1="2" y1="49.2" x2="0" y2="47.2" width="0" layer="20" curve="90"/>
 <text x="20.32" y="41.91" size="1.778" layer="51" rot="R270">UKHASnet Sensor V1</text>
 <text x="38.1" y="10.16" size="1.778" layer="51" distance="96" rot="R90">Phil M0DNY</text>
 <text x="5.08" y="45.72" size="1.778" layer="51">http://ukhas.net/</text>
