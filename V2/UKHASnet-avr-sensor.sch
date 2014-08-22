@@ -6291,6 +6291,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP11" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
+<part name="JP15" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -6328,6 +6329,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="JP8" gate="G$1" x="144.78" y="5.08" rot="R180"/>
 <instance part="JP10" gate="G$1" x="144.78" y="-7.62" rot="R180"/>
 <instance part="JP11" gate="G$1" x="-48.26" y="25.4"/>
+<instance part="JP15" gate="G$1" x="144.78" y="83.82" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6382,6 +6384,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="58.42" y1="7.62" x2="68.58" y2="7.62" width="0.1524" layer="91"/>
 <junction x="58.42" y="7.62"/>
 <label x="63.5" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP15" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
+<label x="129.54" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
