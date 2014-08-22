@@ -6273,7 +6273,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="C1" library="1000ufCap" deviceset="EEU" device="-P1.5" technology="FC1J6R8" value="6.8UF"/>
+<part name="C1" library="1000ufCap" deviceset="EEU" device="-P1.5" technology="FC1J6R8" value="47UF"/>
 <part name="R4" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="Y1" library="SparkFun" deviceset="RESONATOR" device="PTH"/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
