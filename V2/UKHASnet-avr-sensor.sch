@@ -6258,6 +6258,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="RF" width="0" drill="0">
+<clearance class="1" value="0.381"/>
+</class>
 </classes>
 <parts>
 <part name="U$1" library="hopeRF2" deviceset="RFM69HW" device=""/>
@@ -6455,7 +6458,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="-5.08" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RF" class="0">
+<net name="RF" class="1">
 <segment>
 <pinref part="U$1" gate="A" pin="ANT"/>
 <wire x1="-10.16" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
