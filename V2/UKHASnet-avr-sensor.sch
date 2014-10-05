@@ -6712,8 +6712,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP13" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="C2" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
-<part name="C3" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
+<part name="C2" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
+<part name="C3" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
 <part name="C4" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
 <part name="C6" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
 <part name="C5" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
