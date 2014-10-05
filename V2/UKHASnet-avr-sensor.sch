@@ -6706,7 +6706,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="150K"/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="470K"/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="10K"/>
-<part name="C1" library="1000ufCap" deviceset="EEU" device="-P1.5" technology="FC1J6R8" value="47UF"/>
+<part name="C1" library="1000ufCap" deviceset="EEU" device="-P1.5" technology="FC1J6R8" value="47uF"/>
 <part name="R4" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="4.7K"/>
 <part name="Y1" library="SparkFun" deviceset="RESONATOR" device="PTH"/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
@@ -6714,9 +6714,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="C2" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
 <part name="C3" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
-<part name="C4" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
-<part name="C6" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
-<part name="C5" library="capacitor-wima" deviceset="C" device="2.5/2" value="100nF"/>
+<part name="C4" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
+<part name="C6" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
+<part name="C5" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="X1" library="con-coax" deviceset="SMA-" device="142-0711-881/886"/>
