@@ -6734,12 +6734,12 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </plain>
 <instances>
 <instance part="U$1" gate="A" x="25.4" y="-22.86" rot="R180"/>
-<instance part="U$2" gate="G$1" x="-12.7" y="45.72" rot="R90"/>
+<instance part="U$2" gate="G$1" x="-30.48" y="55.88" rot="R90"/>
 <instance part="J1" gate="G$1" x="104.14" y="104.14"/>
 <instance part="JP1" gate="G$1" x="-68.58" y="101.6"/>
-<instance part="JP2" gate="G$1" x="-48.26" y="76.2"/>
-<instance part="JP3" gate="G$1" x="-48.26" y="63.5"/>
-<instance part="JP4" gate="G$1" x="-48.26" y="50.8"/>
+<instance part="JP2" gate="G$1" x="-68.58" y="86.36"/>
+<instance part="JP3" gate="G$1" x="-68.58" y="73.66"/>
+<instance part="JP4" gate="G$1" x="-68.58" y="60.96"/>
 <instance part="U2" gate="A" x="71.12" y="55.88"/>
 <instance part="U1" gate="A" x="-22.86" y="106.68"/>
 <instance part="JP9" gate="G$1" x="96.52" y="5.08" rot="R180"/>
@@ -6747,9 +6747,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="R2" gate="G$1" x="45.72" y="114.3" rot="R90"/>
 <instance part="R3" gate="G$1" x="22.86" y="58.42" rot="R90"/>
 <instance part="C1" gate="G$1" x="15.24" y="101.6" rot="R270"/>
-<instance part="R4" gate="G$1" x="0" y="50.8" rot="R90"/>
+<instance part="R4" gate="G$1" x="-17.78" y="60.96" rot="R90"/>
 <instance part="Y1" gate="G$1" x="27.94" y="38.1"/>
-<instance part="JP12" gate="G$1" x="-48.26" y="38.1"/>
+<instance part="JP12" gate="G$1" x="-68.58" y="48.26"/>
 <instance part="JP13" gate="G$1" x="144.78" y="58.42" rot="R180"/>
 <instance part="JP14" gate="G$1" x="144.78" y="71.12" rot="R180"/>
 <instance part="C2" gate="G$1" x="33.02" y="60.96"/>
@@ -6763,10 +6763,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="JP7" gate="G$1" x="144.78" y="17.78" rot="R180"/>
 <instance part="JP8" gate="G$1" x="144.78" y="5.08" rot="R180"/>
 <instance part="JP10" gate="G$1" x="144.78" y="-7.62" rot="R180"/>
-<instance part="JP11" gate="G$1" x="-48.26" y="25.4"/>
+<instance part="JP11" gate="G$1" x="-68.58" y="35.56"/>
 <instance part="JP15" gate="G$1" x="144.78" y="83.82" rot="R180"/>
-<instance part="PAD1" gate="G$1" x="-15.24" y="33.02"/>
-<instance part="C7" gate="G$1" x="15.24" y="50.8"/>
+<instance part="PAD1" gate="G$1" x="-38.1" y="45.72"/>
+<instance part="C7" gate="G$1" x="-10.16" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -6907,10 +6907,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="DQ"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="0" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
-<junction x="0" y="45.72"/>
-<label x="5.08" y="45.72" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="55.88" x2="-17.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-17.78" y="55.88"/>
+<label x="0" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6954,24 +6954,25 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="50.8" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="50.8" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="60.96" x2="-55.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="60.96" x2="-55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="63.5" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="76.2" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="73.66" x2="-55.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="86.36" x2="-60.96" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="63.5" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-35.56" y="63.5"/>
+<wire x1="-60.96" y1="73.66" x2="-55.88" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-55.88" y="73.66"/>
 <pinref part="JP12" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="38.1" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="38.1" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-35.56" y="50.8"/>
-<wire x1="-35.56" y1="76.2" x2="-33.02" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-35.56" y="76.2"/>
+<wire x1="-60.96" y1="48.26" x2="-55.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="48.26" x2="-55.88" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-55.88" y="60.96"/>
+<wire x1="-55.88" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-55.88" y="86.36"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="101.6" x2="-60.96" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="91.44" x2="-50.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="91.44" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-53.34" y1="91.44" x2="-50.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="93.98" x2="-50.8" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-50.8" y="91.44"/>
 <wire x1="-50.8" y1="91.44" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
@@ -6981,21 +6982,21 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="25.4" y1="91.44" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-40.64" y="91.44"/>
 <wire x1="15.24" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="91.44" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="91.44" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="91.44" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="91.44" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
 <label x="17.78" y="91.44" size="1.778" layer="95"/>
-<wire x1="-33.02" y1="76.2" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-33.02" y="91.44"/>
+<wire x1="-53.34" y1="86.36" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-53.34" y="91.44"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="93.98" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
 <junction x="2.54" y="91.44"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="93.98" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 <junction x="15.24" y="91.44"/>
-<wire x1="-35.56" y1="38.1" x2="-35.56" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-35.56" y="38.1"/>
+<wire x1="-55.88" y1="48.26" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-55.88" y="48.26"/>
 <pinref part="JP11" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="25.4" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="35.56" x2="-60.96" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y1" gate="G$1" pin="2"/>
@@ -7015,15 +7016,15 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="-7.62" y1="43.18" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
-<label x="5.08" y="43.18" size="1.778" layer="95"/>
-<wire x1="-2.54" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="33.02" x2="-2.54" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="33.02" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-2.54" y="43.18"/>
+<wire x1="-25.4" y1="53.34" x2="-20.32" y2="53.34" width="0.1524" layer="91"/>
+<label x="-10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="45.72" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="45.72" x2="-20.32" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-20.32" y="53.34"/>
 <pinref part="PAD1" gate="G$1" pin="P"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="45.72" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="55.88" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -7201,15 +7202,15 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="-7.62" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="48.26" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="58.42" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="58.42" x2="-22.86" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="66.04" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-<junction x="0" y="55.88"/>
-<label x="-5.08" y="55.88" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="66.04" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-17.78" y="66.04"/>
+<label x="-22.86" y="66.04" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="53.34" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="63.5" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
