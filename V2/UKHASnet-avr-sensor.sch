@@ -6726,6 +6726,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="JP11" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP15" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="PAD1" library="wirepad" deviceset="WIREPAD" device="1,6/0,9"/>
+<part name="C7" library="capacitor-wima" deviceset="C" device="2.5/2" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6765,6 +6766,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="JP11" gate="G$1" x="-48.26" y="25.4"/>
 <instance part="JP15" gate="G$1" x="144.78" y="83.82" rot="R180"/>
 <instance part="PAD1" gate="G$1" x="-15.24" y="33.02"/>
+<instance part="C7" gate="G$1" x="15.24" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -6801,16 +6803,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="101.6" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
 <junction x="15.24" y="104.14"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="-7.62" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="48.26" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-<junction x="0" y="55.88"/>
-<label x="5.08" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="A" pin="VCC"/>
@@ -7025,11 +7017,13 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="-7.62" y1="43.18" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
 <label x="5.08" y="43.18" size="1.778" layer="95"/>
-<wire x1="-2.54" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="33.02" x2="-2.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="33.02" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-2.54" y="43.18"/>
 <pinref part="PAD1" gate="G$1" pin="P"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -7197,6 +7191,25 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="-7.62" x2="127" y2="-7.62" width="0.1524" layer="91"/>
 <label x="129.54" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SENSE_VCC" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB0"/>
+<wire x1="53.34" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="43.18" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="-7.62" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="48.26" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<junction x="0" y="55.88"/>
+<label x="-5.08" y="55.88" size="1.778" layer="95"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
