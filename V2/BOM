@@ -1,22 +1,22 @@
 Per Board:
 
 1x 28DIP ATMega328P (Farnell: 1715487)
-1x RFM69[H]W (hoperf.nl)
+1x RFM69[H]W (hoperf.nl or hab.supplies)
 
-1x 150K 1/4W Resistor [R1]
-1x 470K 1/4W Resistor [R2]
+1x 1M 1/4W Resistor [R1]
+1x 4M7 1/4W Resistor [R2]
 1x 10K 1/4W Resistor [R3] (4.7K is fine)
-1x 4.7K 1/4W Resistor [R4]
+1x 4K7 1/4W Resistor [R4]
 
 
-1x MCP1700 3.3V LDO (Farnell: TBC)
+1x MCP1700 3.3V LDO (Farnell: 1296588)
 1x 47uF 6.3V Cap (Farnell: 1870929)
 5x 100nF 50V Cap (Farnell: 2309020)
 
 Optional:
-1x 28-pin DIP Socket
+1x 28-pin DIP Socket (Farnell: TBC)
 1x DS18B20 Temperature Sensor (Farnell: 1187948, may be cheaper elsewhere)
-1x DHT22 Temp/Humidity Sensor (untested)
+1x DHT22 Temp/Humidity Sensor (ebay)
 
 Optional, should provide better timing performance <0 degrees:
 1x 8MHz Resonator (Farnell: 1448126)
