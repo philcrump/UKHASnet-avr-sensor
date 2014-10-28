@@ -6703,8 +6703,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="U2" library="atmega328-dil" deviceset="ATMEGA328P-PU" device=""/>
 <part name="U1" library="mcp1700" deviceset="MCP1700-3302E/TO" device=""/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="150K"/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="470K"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="4.7M"/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="10K"/>
 <part name="C1" library="1000ufCap" deviceset="EEU" device="-P1.5" technology="FC1J6R8" value="47uF"/>
 <part name="R4" library="SparkFun" deviceset="RESISTOR" device="PTH-1/4W" value="4.7K"/>
