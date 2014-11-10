@@ -639,21 +639,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="JST-2-PTH">
-<wire x1="-2" y1="0" x2="-2" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.8" x2="-3" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-1.8" x2="-3" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="6" x2="3" y2="6" width="0.2032" layer="21"/>
-<wire x1="3" y1="6" x2="3" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.8" x2="2" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.8" x2="2" y2="0" width="0.2032" layer="21"/>
-<pad name="1" x="-1" y="0" drill="0.7" diameter="1.4478"/>
-<pad name="2" x="1" y="0" drill="0.7" diameter="1.4478"/>
-<text x="-1.27" y="5.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.27" y="4" size="0.4064" layer="27">&gt;Value</text>
-<text x="0.6" y="0.7" size="1.27" layer="51">+</text>
-<text x="-1.4" y="0.7" size="1.27" layer="51">-</text>
-</package>
 <package name="1X02_XTRA_BIG">
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
@@ -1867,6 +1852,37 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="2.7" y="0.95" size="0.8" layer="51">Y</text>
 <text x="-3.3" y="0.95" size="0.8" layer="51">B</text>
 </package>
+<package name="JST-2-PTH">
+<wire x1="-2" y1="0" x2="-2" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-1.6" x2="-2.95" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-2.95" y1="-1.6" x2="-2.95" y2="6" width="0.2032" layer="21"/>
+<wire x1="-2.95" y1="6" x2="2.95" y2="6" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="6" x2="2.95" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="-1.6" x2="2" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="2" y1="-1.6" x2="2" y2="0" width="0.2032" layer="21"/>
+<pad name="1" x="-1" y="0" drill="0.7" diameter="1.4478"/>
+<pad name="2" x="1" y="0" drill="0.7" diameter="1.4478"/>
+<text x="-1.27" y="5.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.27" y="4" size="0.4064" layer="27">&gt;Value</text>
+<text x="0.6" y="0.7" size="1.27" layer="51">+</text>
+<text x="-1.4" y="0.7" size="1.27" layer="51">-</text>
+</package>
+<package name="JST-2-PTH-VERT">
+<wire x1="-2.95" y1="-2.25" x2="-2.95" y2="2.25" width="0.2032" layer="21"/>
+<wire x1="-2.95" y1="2.25" x2="2.95" y2="2.25" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="-2.25" x2="1" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-2.25" x2="-2.95" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-1.75" x2="1" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="1" y1="-1.75" x2="1" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-1.75" x2="-1" y2="-2.25" width="0.2032" layer="21"/>
+<pad name="1" x="-1" y="-0.55" drill="0.7" diameter="1.6256"/>
+<pad name="2" x="1" y="-0.55" drill="0.7" diameter="1.6256"/>
+<text x="-1.984" y="3" size="0.4064" layer="25">&gt;Name</text>
+<text x="2.016" y="3" size="0.4064" layer="27">&gt;Value</text>
+<text x="0.616" y="0.75" size="1.27" layer="51">+</text>
+<text x="-1.384" y="0.75" size="1.27" layer="51">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AVR_SPI_PROGRAMMER_6">
@@ -2040,7 +2056,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 
 3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;
 
-5mm Screw Terminal footprints for use with PRT-08433</description>
+5mm Screw Terminal footprints for use with PRT-08432</description>
 <gates>
 <gate name="G$1" symbol="M02" x="-2.54" y="0"/>
 </gates>
@@ -2116,7 +2132,9 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="STOREFRONT_ID" value="PRT-08432" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LOCK" package="1X02_LOCK">
@@ -2179,7 +2197,9 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SKU" value="PRT-09914" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH4" package="1X02_XTRA_BIG">
@@ -2240,6 +2260,15 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <connects>
 <connect gate="G$1" pin="1" pad="P1"/>
 <connect gate="G$1" pin="2" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-PTH-VERT" package="JST-2-PTH-VERT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7694,7 +7723,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <parts>
 <part name="U$1" library="hopeRF2" deviceset="RFM69HW" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="2X3_LOCK"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
@@ -7717,6 +7745,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="X2" library="con-coax" deviceset="SMA-" device="142-0711-821/826"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-VERT"/>
 </parts>
 <sheets>
 <sheet>
@@ -7725,7 +7754,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instances>
 <instance part="U$1" gate="A" x="25.4" y="-22.86" rot="R180"/>
 <instance part="J1" gate="G$1" x="104.14" y="104.14"/>
-<instance part="JP1" gate="G$1" x="-68.58" y="101.6"/>
 <instance part="JP2" gate="G$1" x="-68.58" y="86.36"/>
 <instance part="JP3" gate="G$1" x="-68.58" y="73.66"/>
 <instance part="JP4" gate="G$1" x="-68.58" y="60.96"/>
@@ -7747,7 +7775,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="JP16" gate="G$1" x="147.32" y="66.04" rot="R180"/>
 <instance part="JP5" gate="G$1" x="147.32" y="15.24" rot="R180"/>
 <instance part="X2" gate="G1" x="96.52" y="-5.08" rot="MR0"/>
-<instance part="JP6" gate="G$1" x="-33.02" y="55.88" rot="MR180"/>
+<instance part="JP6" gate="G$1" x="-33.02" y="53.34"/>
+<instance part="JP7" gate="G$1" x="-76.2" y="104.14" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -7887,11 +7916,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="55.88" x2="-17.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-17.78" y="55.88"/>
 <label x="0" y="55.88" size="1.778" layer="95"/>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="G$1" pin="3"/>
+<wire x1="-27.94" y1="55.88" x2="-17.78" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-17.78" y="55.88"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7946,7 +7975,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <junction x="-55.88" y="73.66"/>
 <wire x1="-55.88" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-55.88" y="86.36"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="101.6" x2="-60.96" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="91.44" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -7971,6 +7999,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="93.98" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 <junction x="15.24" y="91.44"/>
+<wire x1="-60.96" y1="101.6" x2="-63.5" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="101.6" x2="-66.04" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="104.14" x2="-68.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Y1" gate="G$1" pin="2"/>
@@ -7990,15 +8022,15 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </segment>
 <segment>
 <label x="-10.16" y="53.34" size="1.778" layer="95"/>
-<wire x1="-27.94" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="55.88" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="3"/>
-<pinref part="JP6" gate="G$1" pin="4"/>
-<wire x1="-27.94" y1="50.8" x2="-25.4" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="50.8" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-25.4" y="53.34"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="50.8" x2="-27.94" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -8019,13 +8051,15 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <net name="VIN" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="VIN"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="104.14" x2="-50.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="-58.42" y="104.14" size="1.778" layer="95"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="104.14" x2="-60.96" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="101.6" x2="-50.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="104.14" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-50.8" y="104.14"/>
+<wire x1="-63.5" y1="104.14" x2="-66.04" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="2"/>
+<wire x1="-66.04" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -8191,7 +8225,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="-22.86" y="66.04" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="63.5" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="JP6" gate="G$1" pin="4"/>
 <wire x1="-27.94" y1="58.42" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
