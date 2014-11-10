@@ -151,18 +151,18 @@
 <text x="24.765" y="13.97" size="1.778" layer="51" rot="R90">https://ukhas.net/</text>
 <text x="41.91" y="1.27" size="1.9304" layer="51">+</text>
 <text x="36.83" y="10.16" size="1.778" layer="51" rot="R90">Sensor V3</text>
-<text x="3.175" y="38.4175" size="1.016" layer="51">RX</text>
-<text x="3.175" y="35.8775" size="1.016" layer="51">TX</text>
-<text x="3.175" y="33.3375" size="1.27" layer="51">G</text>
+<text x="3.175" y="37.465" size="1.016" layer="51">RX</text>
+<text x="3.175" y="34.925" size="1.016" layer="51">TX</text>
+<text x="3.175" y="32.385" size="1.27" layer="51">G</text>
 <text x="19.685" y="36.195" size="1.27" layer="51">A2</text>
 <text x="19.685" y="38.735" size="1.27" layer="51">A3</text>
 <text x="19.685" y="33.655" size="1.27" layer="51">A1</text>
-<text x="3.175" y="28.2575" size="1.016" layer="51">D3</text>
-<text x="3.175" y="25.7175" size="1.016" layer="51">D4</text>
-<text x="3.175" y="23.1775" size="1.27" layer="51">G</text>
-<text x="3.175" y="30.7975" size="1.27" layer="51">+</text>
+<text x="3.175" y="27.305" size="1.016" layer="51">D3</text>
+<text x="3.175" y="24.765" size="1.016" layer="51">D4</text>
+<text x="3.175" y="22.225" size="1.27" layer="51">G</text>
+<text x="3.175" y="29.845" size="1.27" layer="51">+</text>
 <text x="43.18" y="3.81" size="1.016" layer="51">max 6V</text>
-<text x="13.97" y="3.175" size="1.016" layer="51">18B20/DHT22</text>
+<text x="13.335" y="3.175" size="1.016" layer="51">18B20/DHT22</text>
 </plain>
 <libraries>
 <library name="hopeRF2">
