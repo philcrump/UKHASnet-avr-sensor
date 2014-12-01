@@ -3,10 +3,10 @@ Per Board:
 1x 28DIP ATMega328P (Farnell: 1715487)
 1x RFM69[H]W (hoperf.nl or hab.supplies)
 
-1x 1M 1/4W Resistor
-1x 4M7 1/4W Resistor
+1x 100K 1/4W Resistor
+1x 470K 1/4W Resistor
 1x 10K 1/4W Resistor (4.7K is fine)
-1x 4K7 1/4W Resistor
+1x 4.7K 1/4W Resistor
 
 1x MCP1700 3.3V LDO (Farnell: 1296588)
 5x 100nF 50V Cap (Farnell: 2309020)
